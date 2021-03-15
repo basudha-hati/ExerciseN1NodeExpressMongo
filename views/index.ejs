@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Welcome to MongoDB Cluster of Basudha</h1>
+    <ul>
+    <% results.forEach(function(result) { %>
+    <li> First Name: <%= result.First_Name %></li>
+        <li>Last Name: <%= result.Last_Name %> </li>
+        <li>Courses Enrolled: <%= result.Course_Enrolled %></li>
+    <% }); %>
+    </ul>
+  </body>
+</html>
+
